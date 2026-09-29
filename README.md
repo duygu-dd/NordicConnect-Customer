@@ -1,13 +1,8 @@
-# NordicConnect Customer
+# NordicConnect Customer v8
 
-Responsive Next.js müşteri eSIM arayüzü.
+Desktop-first multi-route Next.js customer storefront. v8 replaces the old single-page state-driven prototype with real routes for store, local/regional/global eSIM discovery, country package selection, checkout, account/eSIM management, help center, how-it-works, eSIM education, business and login.
 
-## Çalıştırma
-```bash
-npm install
-npm run dev
-```
-
-Tarayıcı: http://localhost:3000
-
-Bu sürüm UI prototipidir; ödeme ve eSIM servisleri mock akış kullanır.
+## Important
+- UI is a frontend prototype; payment/auth/live support/backend APIs are not connected.
+- Destination/pricing data is demo content and must be replaced by NordicConnect backend data.
+- Remote travel photos are presentation assets loaded from Unsplash URLs; production usage should use approved/owned assets and a proper image pipeline.
