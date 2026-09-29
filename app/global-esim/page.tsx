@@ -1,0 +1,1 @@
+import {Shell,Store} from '../../components/Site';export default function P(){return <Shell><Store title="Global eSIM'ler" active="global"/></Shell>}
