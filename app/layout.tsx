@@ -1,1 +1,1 @@
-import "./globals.css"; export const metadata={title:"NordicConnect eSIM",description:"Global eSIM connectivity"}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="tr"><body>{children}</body></html>}
+import './globals.css';export const metadata={title:'NordicConnect | Travel eSIM',description:'Travel eSIMs for local, regional and global coverage.'};export default function Layout({children}:{children:React.ReactNode}){return <html lang="tr"><body>{children}</body></html>}
