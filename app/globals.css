@@ -46,8 +46,7 @@ button,a,.primary{transition:transform .2s ease,box-shadow .25s ease,filter .2s 
 
 /* Signature interactive navigation */
 .siteFrame{position:relative;isolation:isolate;overflow:hidden}
-.routeGlow{position:fixed;z-index:9999;pointer-events:none;inset:0;background:linear-gradient(105deg,transparent 35%,rgba(79,205,211,.18) 48%,rgba(98,81,232,.16) 52%,transparent 65%);transform:translateX(-120%);animation:routeSweep .7s cubic-bezier(.65,0,.2,1)}
-@keyframes routeSweep{0%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+
 .storeTabs{position:relative;display:grid!important;grid-template-columns:repeat(4,1fr);padding:7px!important;border:1px solid rgba(31,78,104,.12);border-radius:20px!important;background:rgba(255,255,255,.55);box-shadow:inset 0 1px 0 rgba(255,255,255,.8),0 12px 35px rgba(31,78,104,.07);overflow:hidden;isolation:isolate}
 .storeTabs .tabRail{position:absolute;z-index:-1;top:7px;bottom:7px;width:calc(25% - 3.5px);border-radius:14px;background:linear-gradient(120deg,#1f4e68,#496d83 55%,#6251e8);box-shadow:0 8px 22px rgba(31,78,104,.22);transition:transform .5s cubic-bezier(.2,.9,.2,1)}
 .storeTabs.tab-all .tabRail{transform:translateX(0)}
