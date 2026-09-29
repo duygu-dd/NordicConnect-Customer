@@ -1,0 +1,1 @@
+import {Shell,Store} from '../../components/Site';export default function P(){return <Shell><Store title="Yerel eSIM'ler" active="local"/></Shell>}
